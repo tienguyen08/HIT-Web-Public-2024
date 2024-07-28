@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background: url('picture/zxqcgr1rxwo61.webp') no-repeat;
+    background-size: cover;
+}
+
+.background-form{
+    background-color: rgba(145, 68, 32, 0.618);
+    max-width: 30rem;
+    margin:5rem auto;
+    padding:2.4rem 2rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+h1, h2{
+    margin-bottom: 2.4rem ;
+}
+
+input, button{
+    width:100%;
+    padding:1.2rem;
+    font-size: 1.2rem;
+    border-radius: 1rem ;
+    border: 2px solid #777;
+    margin-bottom: 1.8rem;
+}
+
+a{
+    
+    text-decoration: none;
+    color: #777;
+}

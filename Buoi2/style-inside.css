@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background: rgb(160, 105, 87);
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    background-color: chocolate;
+    max-width: 20rem;
+    margin:1rem auto;
+    border-radius: 1rem;
+}
+
+.background-form{
+    background-color: bisque;
+    margin:0.25rem ;
+    padding:2rem 2rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.background-form2{
+    background-color:beige;
+    margin: 0.25rem;
+    padding:2rem 2rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+ul.products{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul.products li{
+    flex-basis: 25%;
+    margin: auto;
+}
+
+ul.products li img{
+    display:block;
+    max-width: 100%;
+    height: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+input{
+    background-color: rgba(142, 216, 14, 0.771);
+    color: #ecdcdc;
+    border-radius: 1rem ;
+    width: 100%;
+    max-width: 100%;
+    font-size: larger;
+    border:2px solid #777;
+}
+
+.box:hover{
+    background-color: rgba(216, 14, 14, 0.771);
+    color: #5fe03f;
+    border-radius: 1rem ;
+    width: 100%;
+    max-width: 100%;
+    font-size: medium;
+    border:2px solid #777;
+}
+
+a{
+    
+    color: #777;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 1rem ;
+    margin-bottom: 1.8rem;
+}
