@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:url("picture/banner.jpg")no-repeat;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu {
+    
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a{
+    text-shadow:white;
+    color:white;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.menu2 a{
+    
+    margin: 10px 10px;
+}
+
+.menu2 li{
+    display: inline-block;
+    position: relative;
+}
+.menu2 li:hover {
+    background-color: #777;
+}
+
+.generic {
+    background-color: white;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+}
+
+.generic a{
+    color: black;
+}
+.menu2 li:hover .generic{
+    display: block;
+}
+
+.center {
+    height: 100vh;
+    display: flex;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button1{
+    text-align: center;
+    align-content:center;
+    color:white;
+    background-color: rgb(227, 57, 57);
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+    border-radius: 0.2rem;
+}
+
+
+
+.trang2 {
+    background-color: white;
+   padding: 50px; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 30px;
+   color: #777;
+}
+.trang2 div p, .trang2 div h3 {
+    margin: 30px 30px;
+    font-weight: lighter;
+}
+ 
+.trang2 div{
+    width: 400px;
+}
+
+.trang3 {
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    color:#777
+}
+
+.trang3 div:first-child p{
+    color:#777
+}
+.picture {
+    display: flex;
+    gap:20px
+}
+
+.nut{
+    display: flex;
+    gap:10px
+}
+
+.button2{
+    text-align: center;
+    align-content:center;
+    color:white;
+    background-color: black;
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+    border-radius: 0.2rem;
+}
+
+.trang4 {
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    color:#777;
+    margin-top: 100px;
+}
+
+.pict4{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px;
+    flex-direction: row;
+}
+
+.left{
+    display: flex;
+    text-align: end;
+    gap:30px;
+}
+
+.right {
+    display: flex;
+    text-align: start;
+    gap: 30px;
+}
+
+.trang4 img{
+    margin: 10px 10px;
+    border-radius: 50%;
+    border: 0.5rem solid #777;
+}
+
+.trang4 h4, .trang4 p{
+    margin: 10px  10px;
+}
